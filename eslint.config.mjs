@@ -8,8 +8,13 @@ const __dirname = dirname(__filename);
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
 const eslintConfig = [
-   ...compat.extends("next/core-web-vitals", "next/typescript", "eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"),
-   { plugins: ["@typescript-eslint", "prettier"], rules: { "prettier/prettier": "error" } },
+   ...compat.config({
+      extends: ["next/core-web-vitals", "next/typescript", "prettier"],
+      plugins: ["@typescript-eslint", "prettier"],
+      rules: {
+         "prettier/prettier": "error",
+      },
+   }),
 ];
 
 export default eslintConfig;
