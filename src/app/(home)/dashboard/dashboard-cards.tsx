@@ -3,7 +3,7 @@ import { TriangleAlert } from "lucide-react";
 
 export function DashboardCards() {
    return (
-      <div className="grid grid-cols-1 gap-4 @xl/main:grid-cols-2 @5xl/main:grid-cols-4">
+      <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 2xl:grid-cols-4 ">
          <Card>
             <CardHeader>
                <CardTitle className="text-3xl font-semibold">1 250</CardTitle>
@@ -18,16 +18,16 @@ export function DashboardCards() {
          </Card>
          <Card>
             <CardHeader>
-               <CardTitle className="text-3xl font-semibold flex items-center gap-2">
-                  3 <TriangleAlert className="text-red-500 !size-7" /> <span className="text-sm text-red-500">Nízké zásoby</span>
-               </CardTitle>
-               <CardDescription>Nízké zásoby</CardDescription>
+               <CardTitle className="text-3xl font-semibold">3</CardTitle>
+               <CardDescription className="flex items-center gap-1">
+                  <TriangleAlert className="text-red-500 !size-4" /> <span className="text-sm text-red-500">Nízké zásoby</span>
+               </CardDescription>
             </CardHeader>
          </Card>
          <Card>
             <CardHeader>
                <CardTitle className="text-3xl font-semibold">4</CardTitle>
-               <CardDescription>Skladů</CardDescription>
+               <CardDescription>Počet skladů</CardDescription>
             </CardHeader>
          </Card>
       </div>
