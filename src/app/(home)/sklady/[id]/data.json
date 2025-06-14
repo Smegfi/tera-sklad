@@ -1,0 +1,124 @@
+{
+   "items": [
+      {
+         "id": 1,
+         "name": "Ytong 375 mm",
+         "quantity": 40,
+         "unit": "ks",
+         "category": "Zdivo",
+         "status": "Skladem"
+      },
+      {
+         "id": 2,
+         "name": "Cihla plná",
+         "quantity": 1000,
+         "unit": "ks",
+         "category": "Zdivo",
+         "status": "Skladem"
+      },
+      {
+         "id": 3,
+         "name": "Cement CEM I 42,5 R",
+         "quantity": 50,
+         "unit": "kg",
+         "category": "Materiály",
+         "status": "Skladem"
+      },
+      {
+         "id": 4,
+         "name": "Písek stavební",
+         "quantity": 2000,
+         "unit": "kg",
+         "category": "Materiály",
+         "status": "Skladem"
+      },
+      {
+         "id": 5,
+         "name": "Vápno hašené",
+         "quantity": 100,
+         "unit": "kg",
+         "category": "Materiály",
+         "status": "Skladem"
+      },
+      {
+         "id": 6,
+         "name": "Betonová míchací mícha",
+         "quantity": 2,
+         "unit": "ks",
+         "category": "Vybavení",
+         "status": "Nedostatek"
+      },
+      {
+         "id": 7,
+         "name": "Zednická lžíce",
+         "quantity": 10,
+         "unit": "ks",
+         "category": "Nářadí",
+         "status": "Nedostatek"
+      },
+      {
+         "id": 8,
+         "name": "Kbelík stavební",
+         "quantity": 15,
+         "unit": "ks",
+         "category": "Vybavení",
+         "status": "Skladem"
+      },
+      {
+         "id": 9,
+         "name": "Lepidlo na obklady",
+         "quantity": 30,
+         "unit": "kg",
+         "category": "Materiály",
+         "status": "Skladem"
+      },
+      {
+         "id": 10,
+         "name": "Obklad 30x30 cm",
+         "quantity": 200,
+         "unit": "ks",
+         "category": "Obklady",
+         "status": "Skladem"
+      },
+      {
+         "id": 11,
+         "name": "Malta pro zdivo",
+         "quantity": 500,
+         "unit": "kg",
+         "category": "Materiály",
+         "status": "Skladem"
+      },
+      {
+         "id": 12,
+         "name": "Vodováha 60 cm",
+         "quantity": 0,
+         "unit": "ks",
+         "category": "Nářadí",
+         "status": "Vyprodáno"
+      },
+      {
+         "id": 13,
+         "name": "Kotva chemická",
+         "quantity": 100,
+         "unit": "ks",
+         "category": "Kotvy",
+         "status": "Skladem"
+      },
+      {
+         "id": 14,
+         "name": "Hřebíky 100 mm",
+         "quantity": 1000,
+         "unit": "ks",
+         "category": "Kování",
+         "status": "Skladem"
+      },
+      {
+         "id": 15,
+         "name": "Vruty do dřeva 6x60 mm",
+         "quantity": 500,
+         "unit": "ks",
+         "category": "Kování",
+         "status": "Skladem"
+      }
+   ]
+}

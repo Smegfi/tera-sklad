@@ -40,11 +40,11 @@ export default function Page() {
                      </TableHeader>
                      <TableBody>
                         <TableRow>
-                           <TableCell>{new Date(Math.random() * 10000000000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
+                           <TableCell>{new Date(Math.random() * 1000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
                            <TableCell>
                               <div className="flex items-center gap-2">
-                                 <span>Výdaj</span>
                                  <Upload className="size-5 text-red-500" />
+                                 <span>Výdaj</span>
                               </div>
                            </TableCell>
                            <TableCell>Ytong 375mm</TableCell>
@@ -55,11 +55,11 @@ export default function Page() {
                         </TableRow>
 
                         <TableRow>
-                           <TableCell>{new Date(Math.random() * 10000000000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
+                           <TableCell>{new Date(Math.random() * 1000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
                            <TableCell>
                               <div className="flex items-center gap-2">
-                                 <span>Příjem</span>
                                  <Download className="size-5 text-green-500" />
+                                 <span>Příjem</span>
                               </div>
                            </TableCell>
                            <TableCell>Bednění - DOKA Framax Xli 1200x2400</TableCell>
@@ -70,11 +70,11 @@ export default function Page() {
                         </TableRow>
 
                         <TableRow>
-                           <TableCell>{new Date(Math.random() * 10000000000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
+                           <TableCell>{new Date(Math.random() * 1000000000).toLocaleString("cs-CZ", { hour: "2-digit", minute: "2-digit" })}</TableCell>
                            <TableCell>
                               <div className="flex items-center gap-2">
-                                 <span>Výdaj</span>
                                  <Upload className="size-5 text-red-500" />
+                                 <span>Výdaj</span>
                               </div>
                            </TableCell>
                            <TableCell>Cement B20</TableCell>
