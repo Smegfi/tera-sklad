@@ -3,9 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 import DataTable from "./data-table";
 
 interface SkladPageProps {
-   params: {
-      id: number;
-   };
+   params: Promise<{ id: number }>;
 }
 
 export default async function SkladPage({ params }: SkladPageProps) {
