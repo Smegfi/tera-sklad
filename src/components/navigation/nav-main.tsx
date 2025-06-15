@@ -3,6 +3,7 @@
 import { SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
 import { LucideIcon } from "lucide-react";
 import Link from "next/link";
+import NewOrder from "./new-order";
 
 export function NavMain({
    items,
@@ -15,6 +16,7 @@ export function NavMain({
 }) {
    return (
       <SidebarGroup>
+         <NewOrder />
          <SidebarGroupLabel>Navigace</SidebarGroupLabel>
          <SidebarGroupContent className="flex flex-col gap-2">
             <SidebarMenu>

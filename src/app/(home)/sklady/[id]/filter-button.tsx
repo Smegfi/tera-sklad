@@ -9,7 +9,7 @@ export default function FilterButton() {
    return (
       <Dialog>
          <DialogTrigger asChild>
-            <Button variant="outline">
+            <Button variant="default">
                <Filter className="size-4" />
                Filtrovat
             </Button>

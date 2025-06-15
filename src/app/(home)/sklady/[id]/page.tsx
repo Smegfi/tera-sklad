@@ -27,7 +27,9 @@ export default async function SkladPage({ params }: SkladPageProps) {
                         </div>
                         <div className="flex items-center gap-2">
                            <Phone className="size-4" />
-                           +420 123 456 789
+                           <a href="tel:+420123456789" className="border-b border-dashed hover:border-primary">
+                              +420 123 456 789
+                           </a>
                         </div>
                         <div className="flex items-center gap-2">
                            <Mail className="size-4" />

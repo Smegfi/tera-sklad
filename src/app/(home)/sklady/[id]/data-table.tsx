@@ -26,7 +26,7 @@ export default function DataTable() {
             <div className="flex items-center gap-6">
                <div className="flex items-center gap-2 flex-1">
                   <Input type="text" placeholder="Hledat" value={search} onChange={(e) => setSearch(e.target.value)} />
-                  <Button onClick={handleSearch}>
+                  <Button onClick={handleSearch} variant="outline">
                      <Search className="size-4" />
                      Hledat
                   </Button>
