@@ -11,7 +11,7 @@ export default function FilterButton() {
          <DialogTrigger asChild>
             <Button variant="default">
                <Filter className="size-4" />
-               Filtrovat
+               <span className="hidden 2xl:block">Filtrovat</span>
             </Button>
          </DialogTrigger>
          <DialogContent>

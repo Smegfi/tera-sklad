@@ -12,9 +12,9 @@ export default async function SkladPage({ params }: SkladPageProps) {
    return (
       <div className="space-y-4">
          <h1 className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">Sklad {id}</h1>
-         <div className="flex items-start gap-4">
+         <div className="grid grid-cols-1 2xl:grid-cols-4 space-y-4 2xl:gap-4">
             <DataTable />
-            <div className="w-1/4 space-y-4">
+            <div className="space-y-4 2xl:col-span-1">
                <Card>
                   <CardHeader>
                      <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">Základní údaje</CardTitle>

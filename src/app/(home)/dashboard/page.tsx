@@ -44,7 +44,7 @@ export default function Page() {
                            <TableCell>
                               <div className="flex items-center gap-2">
                                  <Upload className="size-5 text-red-500" />
-                                 <span>Výdaj</span>
+                                 <span>Výdej</span>
                               </div>
                            </TableCell>
                            <TableCell>Ytong 375mm</TableCell>
@@ -74,7 +74,7 @@ export default function Page() {
                            <TableCell>
                               <div className="flex items-center gap-2">
                                  <Upload className="size-5 text-red-500" />
-                                 <span>Výdaj</span>
+                                 <span>Výdej</span>
                               </div>
                            </TableCell>
                            <TableCell>Cement B20</TableCell>
@@ -89,7 +89,7 @@ export default function Page() {
             </Card>
          </div>
 
-         <div className="grid grid-cols-2 gap-4">
+         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <Card>
                <CardHeader>
                   <CardTitle>

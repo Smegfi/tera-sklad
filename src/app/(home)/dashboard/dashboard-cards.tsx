@@ -3,7 +3,7 @@ import { TriangleAlert } from "lucide-react";
 
 export function DashboardCards() {
    return (
-      <div className="grid grid-cols-1 gap-4 xl:grid-cols-2 2xl:grid-cols-4 ">
+      <div className="grid grid-cols-2 gap-4 xl:grid-cols-2 2xl:grid-cols-4 ">
          <Card>
             <CardHeader>
                <CardTitle className="text-3xl font-semibold">1 250</CardTitle>
@@ -13,7 +13,7 @@ export function DashboardCards() {
          <Card>
             <CardHeader>
                <CardTitle className="text-3xl font-semibold">45</CardTitle>
-               <CardDescription>Dneska přijatých položek</CardDescription>
+               <CardDescription>Dnes přijatých položek</CardDescription>
             </CardHeader>
          </Card>
          <Card>

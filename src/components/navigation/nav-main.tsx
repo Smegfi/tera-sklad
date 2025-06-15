@@ -1,19 +1,20 @@
 "use client";
 
-import { SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "@/components/ui/sidebar";
+import { SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarMenu, SidebarMenuButton, SidebarMenuItem, useSidebar } from "@/components/ui/sidebar";
 import { LucideIcon } from "lucide-react";
 import Link from "next/link";
 import NewOrder from "./new-order";
 
-export function NavMain({
-   items,
-}: {
+interface NavMainProps {
    items: {
       title: string;
       url: string;
       icon?: LucideIcon;
    }[];
-}) {
+}
+
+export function NavMain({ items }: NavMainProps) {
+   const { setOpenMobile } = useSidebar();
    return (
       <SidebarGroup>
          <NewOrder />
@@ -22,7 +23,7 @@ export function NavMain({
             <SidebarMenu>
                {items.map((item) => (
                   <SidebarMenuItem key={item.title}>
-                     <Link href={item.url}>
+                     <Link href={item.url} onClick={() => setOpenMobile(false)}>
                         <SidebarMenuButton tooltip={item.title}>
                            {item.icon && <item.icon className="!size-5" />}
                            <span>{item.title}</span>

@@ -20,21 +20,21 @@ export default function DataTable() {
    }
 
    return (
-      <Card className="w-3/4">
+      <Card className="2xl:col-span-3">
          <CardHeader>
             <CardTitle className="text-2xl font-semibold tabular-nums @[250px]/card:text-3xl">Skladové zásoby</CardTitle>
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-4">
                <div className="flex items-center gap-2 flex-1">
                   <Input type="text" placeholder="Hledat" value={search} onChange={(e) => setSearch(e.target.value)} />
                   <Button onClick={handleSearch} variant="outline">
                      <Search className="size-4" />
-                     Hledat
+                     <span className="hidden 2xl:block">Hledat</span>
                   </Button>
                   <FilterButton />
                </div>
                <Button variant="outline">
                   <Plus className="size-4" />
-                  Přidat zásobu
+                  <span className="hidden lg:block">Přidat zásobu</span>
                </Button>
             </div>
          </CardHeader>
